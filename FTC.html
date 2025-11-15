@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Forward Trade Concern.Pvt.Ltd</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e8f2ff;
+  color: #1a1a1a;
+}
+a { text-decoration: none; }
+
+nav {
+  background: #0b5fcc;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+nav h2 { margin: 0; }
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+}
+nav a {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+              url("https://via.placeholder.com/1600x700?text=Forward+Trade+Concern+Pvt+Ltd") center/cover no-repeat;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.hero h1 { font-size: 48px; margin: 0 0 15px 0; }
+.hero p { font-size: 20px; margin-bottom: 25px; }
+.btn-main {
+  padding: 15px 25px;
+  background: #0b5fcc;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 0;
+}
+h2 {
+  color: #0b5fcc;
+  border-left: 5px solid #0b5fcc;
+  padding-left: 10px;
+}
+
+.about-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.why {
+  background: #dceaff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.testimonial-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  margin-bottom: 15px;
+}
+
+.contact-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.18);
+}
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #0b5fcc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer {
+  background: #0b5fcc;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>Forward Trade</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div id="home" class="hero">
+  <div>
+    <h1>Forward Trade Concern Pvt. Ltd.</h1>
+    <p>Reliable Suppliers of Rock Breakers & Heavy Equipment Parts in Nepal</p>
+    <a href="tel:+9779841020941" class="btn-main">Contact Us</a>
+  </div>
+</div>
+
+<!-- ABOUT SECTION WITH FULL DESCRIPTION -->
+<section id="about">
+  <h2>About Us</h2>
+  <div class="about-box">
+    <p>
+      <strong>Forward Trade Concern Pvt. Ltd.</strong> is a leading trading and supply company 
+      specializing in hydraulic rock breakers, breaker spare parts, and heavy construction machinery 
+      components across Nepal. Since our establishment, we have remained committed to delivering 
+      high-quality products, reliable services, and long-term value to our customers in the construction, 
+      infrastructure, and industrial sectors.
+    </p>
+
+    <p>
+      We supply a wide range of machinery parts including hydraulic rock breakers, chisels, seal kits, 
+      pistons, diaphragms, valve blocks, excavator components, loader parts, and other earth-moving 
+      machinery spares. All our products are sourced from trusted and globally recognized manufacturers, 
+      ensuring durability, compatibility, and strong performance.
+    </p>
+
+    <p>
+      Our team provides complete technical guidance, accurate part identification, product recommendations, 
+      and responsive after-sales support. We have built long-lasting relationships with contractors, heavy 
+      equipment operators, construction firms, rental companies, and government infrastructure projects by 
+      maintaining reliability, quality, and timely service.
+    </p>
+
+    <p>
+      At Forward Trade Concern Pvt. Ltd., our mission is to be Nepal’s most trusted and customer-focused 
+      supplier of heavy-equipment spare parts. We continue to expand our product range and improve service 
+      quality while upholding professionalism, transparency, and customer satisfaction.
+    </p>
+  </div>
+</section>
+
+<section id="products">
+  <h2>Products & Services</h2>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/137366465_2890508164564080_4189369236996958212_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHBm3AJMYfftE94VAMvk6XIfUGf8hB_rCx9QZ_yEH-sLJI0z9IDC4ZgCaBeSbzbJHHNv0bbMIqI-mT_LZoyKmP0&_nc_ohc=QN_3rTdLo5gQ7kNvwHRdGFx&_nc_oc=AdmvIobbjY-pJndDgjzZ90xk9hWMnRThzwO8X2GObZGMrn69CRfSch8A1OP6Bdb-DWAo5k5ykJu9Y9AivshHXpjV&_nc_zt=23&_nc_ht=scontent.fktm8-1.fna&_nc_gid=JDWPsH4R5OvFREcSUnM71A&oh=00_Afj5Ny9Cj3xSURgE-n0NcA9uNjybmpyxt0-4jcabTEEIzg&oe=693F8D89">
+      <h3>Hydraulic Rock Breakers</h3>
+      <p>High-performance breakers compatible with major excavator brands.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/137503261_2890504734564423_8011409369336489133_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEffRBfhARtDzQ3WSpoHmKzqvVqjp2jAf-q9WqOnaMB__xg53ypsRKz2MJUP6rRU60iWvujJB1LGKeKqloq-Tn_&_nc_ohc=ZOfVesstSWkQ7kNvwEYxoEB&_nc_oc=AdmG7-Wc_XXHgarVEaXJ3J3JFMYpcxMKAHSjXelLKtdZqmCCaWXH2YFBtfcpkRen4vLFgj_BFIjiRhl5Tjxg0Mnm&_nc_zt=23&_nc_ht=scontent.fktm8-1.fna&_nc_gid=c3IGmaIsHYI1RtcUnzV3Cw&oh=00_AfgI3NaTU_JqUDn7EBzFRC-FmXB0Jas96ijJDxJvkS-Lyg&oe=693FB08B">
+      <h3>Breaker Spare Parts</h3>
+      <p>Chisels, pistons, valve blocks, seal kits, diaphragms & more.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/487834600_1266534301911535_7899341395828207067_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEk527i0jA7oy4gNJZFNI7Dx1Uj3rFLBSrHVSPesUsFKjbicnfU6DodhmdzlaRY_OKZHHoatijt7hBW50duLlEA&_nc_ohc=EGvp-gqecp8Q7kNvwEaCPsb&_nc_oc=AdkryC2zt_BNhHnfwZw57Kbc9Tzf0hWlczFPGSixHqH41dMm5hTYR2WJZElEmIWNyMVEFS7_VBr_zi1JSScG8GvA&_nc_zt=23&_nc_ht=scontent.fktm8-1.fna&_nc_gid=nHR2XV-SOtBq-Xp5-NKOOw&oh=00_Afit_0W8ZqZ_q1csiMP9uPeIjDURh2hHAKpuklY4jAXJyg&oe=691DF254">
+      <h3>Excavator & Loader Parts</h3>
+      <p>Durable components for long-lasting machine performance.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="grid gallery">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjseiOp72p6QFVcVUyiDY4DPuS07QzYwivw&s" width="200">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDW2UTBKMyp9c9F2Ql9aUpCPrDkA9oOIIXw&s" width="200">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjTFt_RkLNw6bNFprL6B-mhRTT14ePtZ0rUw&s" width="200">
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <div class="why">
+    <ul>
+      <li>Premium-quality imported machinery parts</li>
+      <li>Reliable customer support & technical assistance</li>
+      <li>Fast delivery across Nepal</li>
+      <li>Experienced and professional team</li>
+      <li>Trusted by construction firms & contractors nationwide</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Client Testimonials</h2>
+
+  <div class="testimonial-box">
+    ⭐⭐⭐⭐⭐ “Excellent quality machinery parts and very responsive service. Highly recommended.”
+    <br><strong>— Contractor, Kathmandu</strong>
+  </div>
+
+  <div class="testimonial-box">
+    ⭐⭐⭐⭐⭐ “They always provide the exact spare part we need. Professional and trustworthy team.”
+    <br><strong>— Heavy Equipment Supplier</strong>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-box">
+    <p><strong>Phone:</strong> +977 9841020941</p>
+    <p><strong>Email:</strong> ftcnpl@gmail.com</p>
+    <p><strong>Address:</strong> Kathmandu, Nepal</p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © 2025 Forward Trade Concern Pvt. Ltd. | All Rights Reserved
+</footer>
+
+</body>
+</html>
